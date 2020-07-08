@@ -20,15 +20,19 @@ const Carousel = (props) => {
     <div className="carrousel_wrappper"
    		style={{
     	overflow : 'hidden', 
-    	height:`${window.innerHeight}px`
+    	height:`${window.innerHeight}px`,
+            width:`${window.innerWidth}px`
+
     	}}>
 
         <Slider {...settings}>
-        <div className="carrousel_image">
+        <div>
         	<div className="carrousel_image"
         		 style={{
         		 	background: `url(${(ferrari)})`,
-        		 	height:`${window.innerHeight}px`
+              backgroundRepeat: 'noRepeat',
+        		 	height:`${window.innerHeight}px`,
+              width:`${window.innerWidth}px`
 
         		 }}>
         	</div>
@@ -38,7 +42,9 @@ const Carousel = (props) => {
         <div className="carrousel_image"
         		 style={{
         		 	background: `url(${(lambo)})`,
-        		  height:`${window.innerHeight}px`
+        		  height:`${window.innerHeight}px`,
+              backgroundRepeat: 'noRepeat',
+              width:`${window.innerWidth}px`
 
         		 }}>
         	</div>
@@ -48,7 +54,10 @@ const Carousel = (props) => {
          <div className="carrousel_image"
         		 style={{
         		 	background: `url(${(bike)})`,
-        		 	height:`${window.innerHeight}px`
+              backgroundRepeat: 'noRepeat',
+        		 	height:`${window.innerHeight}px`,
+              width:`${window.innerWidth}px`
+
 
         		 }}>
         	</div>
