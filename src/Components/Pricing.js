@@ -23,7 +23,7 @@ class Pricing extends Component {
                 <div className="pricing_item">
                     <div className="pricing_inner_wrapper">
                         <div className="pricing_title">
-                            <span>${this.state.prices[i]}</span>
+                            <span>Rs.{this.state.prices[i]}</span>
                             
                         </div>
                         <div className="pricing_description">
