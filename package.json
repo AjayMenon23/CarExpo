@@ -43,7 +43,7 @@
   },
   "git": {
   "scripts": {
-    "pre-push": "surge --project ./ --domain http://dark-hand.surge.sh/"
+    "pre-push": "surge --project ./public --domain http://dark-hand.surge.sh/"
   }
 }
 
