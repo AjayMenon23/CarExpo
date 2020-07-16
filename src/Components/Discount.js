@@ -43,7 +43,7 @@ class Discount extends Component {
                     
                     <Slide right>
                         <div className="discount_description">
-                            <h3>Purchase tickets before 10th SEP</h3>
+                            <h3>Purchase tickets before 10th AUG</h3>
                             <p>Experience the best automobiles upclose!!</p>
                         
                             <MyButton
